@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="background">
+        <img src="odin.png" alt="Odin" class="odinImg" />
+      </div>
+      <div class="formBox">
+        <p class="headerText">
+          This is not a real online service! Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Necessitatibus, commodi!
+        </p>
+        <p class="headerText">Sign up <em>now</em> to get started.</p>
+        <p class="headerText lowerText">You <em>know</em> you want to.</p>
+        <form action="/" method="post" class="form">
+          <div class="formContent">
+            <p class="formHeading">Let's do this!</p>
+
+            <div class="input">
+              <label for="firstName" class="formLabel">FIRST NAME</label>
+              <input type="text" name="firstName" id="firstName" required />
+            </div>
+
+            <div class="input">
+              <label for="lastName" class="formLabel">LAST NAME</label>
+              <input type="text" name="lastName" id="lastName" required />
+            </div>
+            <div class="input">
+              <label for="email" class="formLabel">EMAIL</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+
+            <div class="input">
+              <label for="phone" class="formLabel">PHONE NUMBER</label>
+              <input type="tel" name="phone" id="phone" required />
+            </div>
+
+            <div class="input">
+              <label for="password" class="formLabel">PASSWORD</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+
+            <div class="input">
+              <label for="passwordConfirm" class="formLabel"
+                >CONFIRM PASSWORD</label
+              >
+              <input
+                type="passwordConfirm"
+                name="passwordConfirm"
+                id="passwordConfirm"
+                required
+              />
+            </div>
+          </div>
+        </form>
+        <button type="submit" class="createButton">Create Account</button>
+        <p class="loginText">
+          Already have an account?
+          <a href="" class="loginLink loginText">Log in</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
